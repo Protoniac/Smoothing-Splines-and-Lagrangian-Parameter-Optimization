@@ -1,9 +1,9 @@
 # SmoothingSplines
 Smoothing Splines and lagrangian parameter optimization
 This software generates smoothing splines using different algorithms :
--> By giving an arbitrary smoothing paramter p
--> By caping the global error S tolerated which permits to deduce the optimal smoothing paramter p
--> By giving the spline's degree of freedom which permits to deduce the optimal smoothing paramter p
+\n -> By giving an arbitrary smoothing paramter p
+\n -> By caping the global error S tolerated which permits to deduce the optimal smoothing paramter p
+\n -> By giving the spline's degree of freedom which permits to deduce the optimal smoothing paramter p
 
 These differents methods are perfectly explained in the following paper (written in french) : 
 https://pro.univ-lille.fr/fileadmin/user_upload/pages_pros/francois_boulier/GIS4-CNUM/support.pdf
