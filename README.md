@@ -1,5 +1,5 @@
-# SmoothingSplines
-Smoothing Splines and lagrangian parameter optimization
+# Smoothing Splines and lagrangian parameter optimization
+
 This software generates smoothing splines using different algorithms :
 1. By giving an arbitrary smoothing paramter p
 2. By caping the global error S tolerated which permits to deduce the optimal smoothing paramter p
