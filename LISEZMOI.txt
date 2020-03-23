@@ -1,0 +1,36 @@
+Le logiciel s’architecture autour d’un squelette Python appellant des programmes Fortran.
+Le logiciel utilise f2py3. Les fichiers fortran sont inscrits ligne 10 du Makefile. Instructions
+d’utilisation :
+1. Compiler avec make.
+2. Insérer dans les variables pays_i les noms correpondant aux pays à visualiser.
+3. Insérer la valeur du df souhaité, ou ”max” pour df = n + 1, ou None pour calculer p
+en fonction de S.
+4. Vérifier que les bibliothèques numpy et matplotlib sont bien installées sur le système.
+5. Lancer avec la commande python3 spline.py
+====================================================
+Programmes Fortran 
+cholesky.f -  Algorithme de Cholesky, génère la matrice L
+df.f - Calcul des dfs selon p dans [a,b], et p selon df fixé 
+init_HG.f - action stockant h et g
+init_Q.f - action calculant Q
+init_T.f - action calculant T
+newton_f.f - Calcul de p selon S fixé
+outils.f - Divers outils comme le calcul de a,b et d ou encore la méthode d'inversion de matrice SDP, de calcul de norme utilisés dans les autres programmes Fortran
+splines.f - Calcul des vecteurs a,b,c,d
+====================================================
+Python
+spline.py - squellette du logiciel, appel des programmes fortran, affichage des courbes et importation des données
+====================================================
+Data
+exemple*.txt - Exemples de données
+fish.csv - Jeu de données référencé dans le rapport
+====================================================
+Dossier images contenant les images du rapport
+====================================================
+Makefile - Les programmes *.f sont inscrits ligne 10
+====================================================
+Rapport.pdf - Rapport final du projet, bonne lecture
+====================================================
+
+Clément & Gaoussou
+
