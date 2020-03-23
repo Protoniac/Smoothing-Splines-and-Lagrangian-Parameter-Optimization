@@ -1,4 +1,4 @@
-# Smoothing Splines and lagrangian parameter optimization
+# Smoothing Splines and Lagrangian Parameter Optimization (Fortran & Python)
 
 This software generates smoothing splines using different algorithms :
 1. By giving an arbitrary smoothing paramter p
